@@ -1,0 +1,7 @@
+node_modules/
+/dist/
+
+# Ignore compiled artifacts accidentally output to src
+src/**/*.js
+src/**/*.js.map
+src/**/*.d.ts
