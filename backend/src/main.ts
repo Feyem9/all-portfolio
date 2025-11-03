@@ -12,7 +12,7 @@ async function bootstrap() {
   // In production: only allow configured frontend origin
   const frontendOrigin = isDevelopment
     ? true  // Allow all origins in development
-    : process.env.FRONTEND_ORIGIN || 'https://feyem9.github.io/portfolio.io'; // Production default
+    : process.env.FRONTEND_ORIGIN || 'https://feyem9.github.io'; // Production default
     
   // Enable CORS with environment-specific settings
   app.enableCors({
