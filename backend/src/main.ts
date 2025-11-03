@@ -17,8 +17,8 @@ async function bootstrap() {
   // Enable CORS with environment-specific settings
   app.enableCors({
     origin: frontendOrigin,
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
     credentials: true,
+    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE,OPTIONS',
   });
 
   await app.listen(port);

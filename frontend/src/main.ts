@@ -7,9 +7,7 @@ const envApi = process.env.REACT_APP_API_URL as string | undefined;
 
 // Ensure no trailing slash and append API path
 // Default backend port is 3001 (matches backend start:dev script)
-export const API_BASE_URL: string = envApi
-	? `${envApi.replace(/\/+$/, '')}/api/portfolio`
-	: 'http://localhost:3000/api/portfolio';
+export const API_BASE_URL: string = 'https://all-portfolio.onrender.com/api/portfolio';
 
 // Frontend dev server port (useful for docs/scripts). Default to 3003 which matches your dev bundle.
 export const FRONTEND_PORT: number = Number(process.env.PORT) || 3003;
