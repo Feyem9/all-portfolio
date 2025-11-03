@@ -259,7 +259,7 @@ export class PortfolioService {
         linkedin:
           "https://www.linkedin.com/in/christian-dongueu-feyem-9b9b9b9b/",
         twitter: "https://twitter.com/feyemlionel",
-        portfolio: "https://portfolio-christian.vercel.app/",
+        portfolio: "https://feyem9.github.io/all-portfolio/",
       },
     };
   }
